@@ -16,10 +16,10 @@ ul {
 .onglets {
   height: 60px;
   width: 60px;
-  background-color: #656565;
-  border: 1px solid #000;
+  background-color: #a79595;
+  /* border: 1px solid #000; */
   transition: 1s;
-  color: #656565;
+  color: #a79595;
 }
 .onglets:nth-child(1) {
   background-color: #3d3c3c;
@@ -44,7 +44,7 @@ img {
   /* height: 60px;
   width: 80px; */
   background-color: rgb(247, 239, 239);
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   color: #fff;
 }
 .onglets p {
@@ -56,10 +56,11 @@ img {
 }
 
 .onglets:hover p {
-  background-color: #656565;
+  /* background-color: #656565; */
   color: #fff;
   height: 60px;
   width: 80px;
   transform: translateX(60px);
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
+  background-color: #3d3c3c;
 }
